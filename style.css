@@ -1,0 +1,31 @@
+body{
+    display:grid;
+    place-content:center;
+    min-height: 100vh;
+    font-family: roboto;
+    font-weight: bold;
+    background-color: rgb(255, 211, 255);
+}
+.heading-container > h1{
+    margin-left: 35%;
+}
+.heading-container{
+    margin-bottom: 1.5rem;
+}
+#mainContainer{
+    margin-left: 2.5rem;
+    border: 1px solid rgb(254, 194, 247);
+    border-radius: 10px;  
+    padding: 30px;
+}
+.container{
+    padding:5px;
+    border-radius: 10px;  
+    margin-bottom:5px;
+    padding-top: 0px;
+}
+.container:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 46px 0px rgba(42, 38, 38, 0.436);
+    background-color: rgb(255, 211, 250);
+}
